@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=BIZ+UDMincho&family=Lobster&family=PT+Sans&family=Palette+Mosaic&family=Roboto+Condensed:wght@300&display=swap');
 
+:root{
+    background-color: #B39DDE;
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +10,7 @@
 
 }
 body{
-    background-image: url(/multimedia/pan.jpg);
+    background-image: url(multimedia/pan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,7 +20,7 @@ header{
     justify-content: flex-end;
     width:100%;
     height: 80px;
-    background: linear-gradient(to right, black, darkgoldenrod);
+    background-color: #CC66C0;
 }
 nav{
     display: flex;
@@ -34,7 +37,7 @@ nav a{
     font-size: larger;
 }
 nav a:hover{
-    color:#082032;
+    color: white;
 }
 .section-bienvenidos{
     /*border: 3px solid black;*/
@@ -44,7 +47,7 @@ nav a:hover{
     flex-direction: column;
 }
 .titulo-bienvenida{
-    color: #4c0027;
+    color: #082032;
     font-family: 'Aclonica', sans-serif;
 }
 .video{
@@ -57,7 +60,7 @@ iframe{
 }
 
 .section-1{
-    background-image: url(multimedia/fondo-section-1.jpg);
+    /* background-image: url(multimedia/fondo-section-1.jpg); */
     background-size: cover;
     /*border: 3px solid black;*/
     padding:50px;
@@ -72,6 +75,7 @@ h2{
     color: #082032;
     font-size:40px;
     font-family: 'Aclonica', sans-serif;
+    
 
 }
 .parrafo-historia{
@@ -105,6 +109,10 @@ p{
     
 }
 
+.carousel{
+    width: 50%;
+    margin-left: 25%;
+}
 .producto-1{
     border: 1px solid black;
     margin: 3px;
@@ -183,6 +191,9 @@ p{
     margin-bottom: 20px;
     margin-top: 50px;
 }
+/* h1{
+    font-family:'Aclonica', sans-serif;
+} */
 input{
     background-color: antiquewhite;
     width: 300px;
