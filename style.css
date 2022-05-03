@@ -10,7 +10,7 @@
 
 }
 body{
-    background-image: url(multimedia/pan.jpg);
+    background-image: url(Multimedia/pan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -87,7 +87,7 @@ p{
 }
 /*productos*/
 .section-2{
-    background-image: url(multimedia/fondo-section-2.jpg);
+    background-image: url(Multimedia/fondo-section-2.jpg);
     background-size: cover;
     padding:200px;
     
@@ -117,7 +117,7 @@ p{
     border: 1px solid black;
     margin: 3px;
     grid-area: producto-1;
-    background-image: url(multimedia/pan-hamb-gratin.jpg);
+    background-image: url(Multimedia/pan-hamb-gratin.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     color: blue;
@@ -129,7 +129,7 @@ p{
     border: 1px solid black;
     margin: 3px;
     grid-area: producto-2;
-    background-image: url(multimedia/pan-papa.jpg);
+    background-image: url(Multimedia/pan-papa.jpg);
     background-size: cover;
 }
 
@@ -140,7 +140,7 @@ p{
     border: 1px solid black;
     margin: 3px;
     grid-area: producto-3;
-    background-image: url(multimedia/pizza.jpg);
+    background-image: url(Multimedia/pizza.jpg);
     background-size: cover;
 }
 .producto-3:hover{
@@ -150,7 +150,7 @@ p{
     border: 1px solid black;
     margin: 3px;
     grid-area: producto-4;
-    background-image: url(multimedia/pan-lomo-clasico.jpg);
+    background-image: url(Multimedia/pan-lomo-clasico.jpg);
     background-size: cover;
 }
 .producto-4:hover{
@@ -161,7 +161,7 @@ p{
     border: 1px solid black;
     margin: 3px;
     grid-area: producto-5;
-    background-image: url(multimedia/pan-lomo-gratin.jpg);
+    background-image: url(Multimedia/pan-lomo-gratin.jpg);
     background-size: cover;
 }
 .producto-5:hover{
@@ -172,14 +172,14 @@ p{
     border: 1px solid black;
     margin: 3px;
     grid-area: producto-6;
-    background-image: url(multimedia/pan-pancho.jpg);
+    background-image: url(Multimedia/pan-pancho.jpg);
     background-size: cover;
 }
 .producto-6:hover{
     border: 3px solid darkgoldenrod;
 }
 .section-3{
-    background-image: url(multimedia/pan.jpg);
+    background-image: url(Multimedia/pan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*border: 3px solid black;*/
